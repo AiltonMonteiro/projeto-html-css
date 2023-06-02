@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;300;400;500;600;700;800;900&family=Kdam+Thmor+Pro&family=Rye&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+   background-image:linear-gradient(to top, rgba(252, 252, 252, 0.568), rgb(20, 20, 223), rgb(221, 24, 24));
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cabecalho-menu-item:hover {
+    color: rgba(55, 0, 255, 0.623);
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Rye', cursive;
+    font-family: 600;
+    font-size: 64px;
+    color: red;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: rgba(53, 53, 182, 0.596);
+    color: white;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 18px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.534);
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgb(226, 64, 43);
+}
+
+.conteudo-principal-imagem {
+    height: 500px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: 'Rye', cursive;
+    font-family: 600;
+    font-size: 24px;
+    color: red;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid white;
+
+}
+
+.rodape-imagem {
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
